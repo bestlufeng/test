@@ -2,4 +2,4 @@ FROM centos:7
 RUN  yum install centos-release-scl-rh -y && \
 yum install rh-ruby23*  -y && \
 scl  enable  rh-ruby23 bash && \
-gem install redis-dump -V && \
+gem install redis-dump -V
